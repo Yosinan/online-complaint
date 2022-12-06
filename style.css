@@ -1,11 +1,11 @@
 #intro
 {
-    color: blue;
+    color: rgb(5, 5, 5);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
  #intro:hover{
 
-    color:black;
+    color:rgb(94, 9, 222);
  }

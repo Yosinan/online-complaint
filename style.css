@@ -1,6 +1,6 @@
 #intro
 {
-    color: rgb(5, 5, 5);
+    color: rgb(237, 229, 229);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
@@ -18,22 +18,35 @@
     font: large;
  }
 
- .par
- {
-    color: bisque;
-    background-color: darkblue;
-
-
-
+ .back{
+    background-color: rgb(31, 145, 174);
 
 
  }
+.co{
+    background-color: antiquewhite;
+    text-align: left;
+    border: 3em;
+   
+}
+.p1{
+    color:rgb(11, 10, 10);
+    text-align: right;
+    margin-right: 2em;
+    font-size: larger;
+    font-family:sans-serif;
+}
 
+ .wel {
 
- .wel{
-
-    background-color: #00ff1a;
+    background-color: #030303f0;
     box-sizing: border-box;
-    box-shadow: inset;
-    size: 5px;
+    width: 1180px;
+    height: 200px;
+    border: 5px solid rgb(17, 2, 2);
+    margin:20px;
+    padding: 30px;
+
+    
+    
  }

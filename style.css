@@ -1,8 +1,13 @@
+/*
+
+
 #intro
 {
     color: rgb(237, 229, 229);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    background-image: url('complaint.jpg');
+    background-size: 500px 500px;
 }
 
  #intro:hover{
@@ -38,7 +43,7 @@
 }
 
  .wel {
-
+   
     background-color: #030303f0;
     box-sizing: border-box;
     width: 1180px;
@@ -50,3 +55,4 @@
     
     
  }
+ */

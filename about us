@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us Section</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="widthdevice-width",intial-scale="1.0">
+
+
+	</head>
+	<body>
+
+		<div class="title">
+			<h1>About Us</h1>
+		</div>
+	<div class ="content">
+		<h3></h3>
+		<p>We are here to make complaints easier to coordinate, monitor, track and resolve, and to provide company with an effective tool to identify and target problem areas, monitor complaints handling performance and 
+		make business improvements.</p>
+		<div class="button">
+	<a herf="">Read more</a>
+	    </div>
+	       <div class="social">
+	       	<a href=""><i class="fab fa facebook-f"></i></a>
+	       	<a href=""><i class="fab fa twiter"></i></a>
+	       	<a href=""><i class="fab fa instagram"></i></a>
+</div>
+
+</div>
+</html>

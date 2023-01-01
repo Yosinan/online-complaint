@@ -3,30 +3,30 @@
 <body>
   <a href="./index.html" target="_top"><img src="./Resources/images/home.jpg" alt="Home Icon" width="30px" height="30px"  > </a>
 <h2> Contact us </h2>
-<p> please fill this in a decent manner</p>
+<p> <u>Please Fill This Form in a Decent Manner</u></p>
 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
   <div class="row">
     <label class="required" for="name">Your name:</label><br />
-    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" maxlength="30" placeholder="First and Last Name"/><br />
     <span id="name_validation" class="error_message"></span>
   </div>
-  <div class="row">
+  <div class="row2">
     <label class="required" for="email">Your email:</label><br />
-    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="youremail@gmail.com"/><br />
     <span id="email_validation" class="error_message"></span>
   </div>
-  <div class="row">
-  <label for="country">Enter your country:</label><br />
-  <input id="country" class="input" name="country" type="text" value="" size="30" ><br>
-      <span id="country_validation" class="error_message"></span>
+  <div class="row3">
+  <label for="subcity">Enter your sub-city:</label><br />
+  <input id="subcity" class="input" name="subcity" type="text" value="" size="30" placeholder="Sub-City" maxlength="15"><br>
+      <span id="subcity_validation" class="error_message"></span>
        </div>
-  <div class="row">
+  <div class="row4">
     <label class="required" for="message">Your message:</label><br />
-    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Write your message here" maxlength="250" ></textarea><br />
     <span id="message_validation" class="error_message"></span>
   </div>
     
-    <input id="submit_button" type="submit" value="Send email" />
+    <input id="submit_button" type="submit" value="Send Message" />
 </form>
 
 </body>

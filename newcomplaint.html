@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Account registration form</title>
+<link rel ="Icon" href="Resources/images/icon.png" type ="image/x-icon">
+</head>
+<body>
+<div class="main-block">
+<form action="/">
+<h1>Complaint Form</h1>
+
+<fieldset>
+    <legend>
+    <h3>Personal information</h3>
+    </legend>
+    <div class="personal info">
+    <label for="username">Full name</label>
+    <input type="text" placeholder="Enter Full name" name="name" required>
+    <br>
+    <br>
+    <label for="mail"><strong>E-mail</strong></label>
+    <input type="text" placeholder="Enter E-mail" name="mail" required>
+    <br><br>
+    <label for="phone no">Phone</label>
+    <input type="tel" placeholder="Enter Phone number" name="phone no" required>
+    <br><br>
+    <label for="cityname">City</label>
+    <input type="text" placeholder="Enter city name" name="cityname" required>
+    <br><br>
+    <label for="street">Street</label>
+    <input type="text" placeholder="Enter street name" name="street" required>
+    <br><br>
+</div>
+</fieldset>
+
+
+<fieldset>
+<legend>
+<h3>Complaint Details</h3>
+</legend>
+<div class="personal-details">
+
+<label for="complaint type">Complaint Type</label>
+<select name="complaint type" id="complaint" >
+    <option value="complaint1" selected>Electric</option>
+    <option value="complaint2">Road</option>
+    <option value="complaint3">Water</option>
+</select>
+<br><br>
+<label for="city">City of the area</label>
+<input type="text" name="city" required>
+<br><br>
+<label for="street">Stree of the area</label>
+<input type="text" name="street" required>
+<br><br>
+<label for="complaint">The Complaint </label>
+<br>
+<textarea name="comp" id="complaint" rows="10" cols="70"></textarea>
+<br><br>
+<label for="file">File attach <br> (optional*)</label>
+<input type="file" name="file" >
+</div>
+
+<legend>
+    <h3>Terms and Mailing</h3>
+</legend>
+<div class="terms-mailing">
+    <input type="checkbox" name="checkbox"><span>I accept the <a href="TermsAndConditions.html">Terms and Conditions</a></span>
+
+
+</fieldset>
+<br>
+
+<button type="submit">Submit</button>
+</form>
+</div> 
+</body>
+</html>
+

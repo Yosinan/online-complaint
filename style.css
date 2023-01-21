@@ -1,4 +1,53 @@
 #intro {
-    color: blue;
+    color: rgb(52, 52, 108);
     align-self:center;
+    text-align:center;
 }
+
+
+#copy{
+    text-align:center;
+    color:rgb(7, 7, 7);
+}
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(4, 4, 4);
+  }
+  
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding: 14px 16px;
+    margin-top: 13px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(236, 241, 244);
+    color: rgb(7, 7, 7);
+
+  }
+
+  li a:active {
+    color:rgb(232, 24, 24);
+  }
+
+  

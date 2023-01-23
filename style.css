@@ -53,6 +53,9 @@ ul {
   li a:active {
     color:rgb(232, 24, 24);
   }
+  span{
+    color:yellow !important;
+  }
 
 
   #h2{

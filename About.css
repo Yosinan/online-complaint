@@ -1,0 +1,88 @@
+body{
+font-family: Arial, Verdana, sans-serif;
+ font-size: 90%;
+ background-color: #eff5f5;
+ background-image:url('bg-img.webp');
+}
+ 
+h1{
+    text-align: center;
+    color:rgb(15, 15, 15);
+    background-color: hsl(180, 5%, 78%);
+ }
+ h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ h3{
+    color:rgb(51, 79, 85);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+p{
+    color:rgb(236, 228, 228);
+    background-color: rgb(40, 3, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+ 
+#copy
+{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.About-us
+{
+    padding-top: 0.5cm;
+    border-radius: 0.5cm;
+    background-color:  #eff5f5;
+}
+
+
+
+.about
+{
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+
+}
+
+.fir{
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.fir-in{
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sec{
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+
+}
+
+.sec-in{
+     padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.social{
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.social-in{
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
